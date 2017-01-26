@@ -238,7 +238,7 @@ img {
 .btn1, .btn2, .btn3, .btn4, .btn5 {
   width: 150px;
   height: 50px;
-  background-color: #88A825;
+  background-color: #88B04B;
   line-height: 50px; }
 
 .btn1 {
@@ -284,8 +284,8 @@ img {
 .topbar {
   width: 100%;
   height: 80px;
-  background-color: #f1f1f1;
-  line-height: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 120px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .topbar_content {
@@ -297,7 +297,7 @@ img {
     width: 150px;
     height: 60px;
     text-align: center;
-    line-height: 70px;
+    line-height: 75px;
     float: left; }
     .topbar_content .logo img {
       height: 70px; }
@@ -312,8 +312,6 @@ nav ul {
     color: white;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase; }
-    nav ul li:hover {
-      box-shadow: inset 0px -5px 0 #c37526; }
     nav ul li a {
       padding: 0 1.5rem;
       color: black; }
@@ -458,6 +456,10 @@ header {
   padding-bottom: 3rem; }
   .klangkeller_content h3 {
     padding-top: 3rem; }
+  .klangkeller_content p {
+    margin: 0;
+    width: 50%;
+    margin-left: 10%; }
 
 .one_content .btn1 {
   margin: auto;
