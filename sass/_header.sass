@@ -1,0 +1,72 @@
+header
+    background: url(../bilder/headerbg.jpg)
+    background-size: cover
+    background-position: center
+    height: 600px
+    width: 100%
+    .header_wrapper
+        margin: auto
+        max-width: 1400px
+    article
+        //background: red
+        margin: auto
+        margin-left: 10%
+        width: 600px
+        //max-width: 1440px
+        border-left: 5px solid white
+        position: relative
+        top: 10rem
+
+        h1
+            padding-left: 1rem
+            text-transform: uppercase
+            font-weight: 700
+            color: white
+            line-height: 1
+            font-weight: 700
+            font-size: 4rem
+            span
+                color: $schmuckfarbe
+            //letter-spacing: 5px
+        h2
+            //text-align: center
+            padding-left: 1rem
+            padding-top: 1rem
+            color: white
+            line-height: 1.1
+            font-family: $headline
+            font-weight: 400
+            text-transform: uppercase
+    .btn1
+        //margin: auto
+        margin-left: 10%
+        margin-top: 12rem
+        text-align: center
+        font-family: $headline
+        text-transform: uppercase
+        font-weight: bold
+        color: white
+        transition: all ease 0.2s
+
+    a
+        transition: all ease 0.2s
+        &:hover
+            color: black
+
+@media screen and (max-width: $small)
+    header
+        article
+            width: 300px
+            h1
+                font-size: 2rem
+            h2
+                font-size: 1.5rem
+//@media screen and (min-width: 1920px)
+    header
+        .btn1
+            margin-left: 18%
+            //transition: none
+        article
+            margin-left: 18%
+
+            //width: 300px

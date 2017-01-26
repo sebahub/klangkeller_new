@@ -1,0 +1,221 @@
+body
+    //background: #e1e1e1
+@font-face
+    font-family: Bebas
+    src: url(fonts/Bebas.woff) format('woff'), url(fonts/Bebas.ttf) format('truetype')
+h1
+    font-size: 2.5rem
+    font-family: $headline
+    font-weight: 300
+    //margin-bottom: 1.875rem
+    //margin-top: 1.875rem
+h2
+    font-size: 1.875rem
+    font-family: $subline
+    //margin-bottom: 1.4rem
+    font-weight: 400
+    text-transform: lowercase
+
+h3
+    font-size: 1.4rem
+    font-family: $subline
+    margin-bottom: 1rem
+    max-width: 90%
+    margin-left: auto
+    margin-right: auto
+
+h4
+    font-size: 1rem
+    font-family: $subline
+    margin-bottom: 1rem
+
+p
+    font-size: 1rem
+    font-family: $paragraph
+    width: 75%
+    margin: auto
+    //margin-bottom: 1rem
+
+li
+    font-family: $paragraph
+    text-transform: uppercase
+
+
+.wrapper
+    width: 100%
+    margin: auto
+    max-width: 1200px
+
+
+
+a
+    font-family: $paragraph
+    text-transform: uppercase
+    color: white
+    display: block
+
+
+img
+    vertical-align: bottom
+
+
+.big_l
+    width: 50vw
+    height: 50vw
+    float: left
+    max-width: 50%
+    //max-width: 600px
+    max-height: 600px
+
+.big_r
+    width: 50vw
+    height: 50vw
+    float: right
+    max-width: 50%
+    //max-width: 600px
+    max-height: 600px
+
+.small_r
+    float: left
+    width: 50vw
+    height: 25vw
+    max-width: 50%
+    //max-width: 600px
+    max-height: 300px
+.small_r2
+    float: right
+    width: 50vw
+    height: 25vw
+    max-width: 50%
+    //max-width: 600px
+    max-height: 300px
+.small_l
+    float: left
+    width: 50vw
+    height: 25vw
+    max-width: 100%
+    //max-width: 600px
+    max-height: 300px
+.small_l2
+    float: left
+    width: 50vw
+    height: 25vw
+    max-width: 100%
+    //max-width: 600px
+    max-height: 300px
+
+.xsmall_l
+    width: 25vw
+    height: 25vw
+    float: left
+    max-width: 100%
+    //max-width: 300px
+    max-height: 300px
+
+
+.xsmall_r
+    width: 25vw
+    height: 25vw
+    float: right
+    max-width: 100%
+    //max-width: 300px
+    max-height: 300px
+
+
+.xsmall_l2
+    width: 25vw
+    height: 25vw
+    float: left
+    max-width: 100%
+    //max-width: 300px
+    max-height: 300px
+
+
+.xsmall_r2
+    width: 25vw
+    height: 25vw
+    float: right
+    max-width: 100%
+    //max-width: 300px
+    max-height: 300px
+
+.big_3rd_l
+    //background-color: red
+    width: 33.333333%
+    float: left
+
+.big_3rd_m
+    //background-color: blue
+    width: 33.333333%
+    float: left
+
+.big_3rd_r
+    //background-color: yellow
+    width: 33.333333%
+    float: right
+
+.content
+    text-align: center
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+.line
+    height: 2px
+    width: 5%
+    background: $schmuckfarbe
+    margin: auto
+    margin-bottom: 1rem
+    margin-top: 1rem
+
+
+@media screen and (max-width: $small)
+    .big_l, .big_r
+        width: 100vw
+        height: 100vw
+        max-width: 100%
+        max-height: none
+        float: none
+    .big_r
+        width: 100vw
+        height: 100vw
+        float: none
+        max-width: 100%
+        max-height: none
+    .small_l, .small_l2, .small_r, .smallr2
+        float: none
+        width: 100vw
+        height: 50vw
+        max-width: 100%
+        max-height: none
+    .xsmall_l, .xsmall_l2, .xsmall_r, .xsmall_r2
+        width: 50vw
+        height: 50vw
+        max-width: 50%
+        max-height: none
+    .big_3rd_l
+        width: 100%
+
+    .big_3rd_m
+        width: 100%
+
+    .big_3rd_r
+        width: 100%
+
+
+
+
+
+
+
+
+
+
+//.line
+    position: relative
+    width: 2rem
+    height: 2px
+    background: orange
+    left: 50%
+    margin-left: -84px
+    margin-top: -25px
+    margin-bottom: 1.5rem
